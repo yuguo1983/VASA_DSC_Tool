@@ -65,12 +65,18 @@ nmake         # Windows (MSVC)
 
 | 字段 | 说明 |
 |---|---|
-| **SRC_DIR** | 输入目录，存放待编码的 DPX / PPM / YUV 文件 |
+| **SRC_DIR** | 输入目录，存放待编码的图像文件（支持 `DPX`、`PPM`、`BMP`、`YUV` 格式） |
 | **Output Directory** | 输出目录，生成的结果文件（.dsc / .dpx / .bmp 等）存放位置 |
 
 操作步骤：
 1. 点击 **Browse...** 选择输入目录。
 2. 点击 **Browse...** 选择输出目录（不指定则输出到程序所在目录）。
+
+> **输入格式说明**：程序会自动扫描输入目录中以下格式的文件：
+> - **DPX** (`.dpx`) — 主格式，支持 8/10/12/16 bpc
+> - **BMP** (`.bmp`) — 仅支持 **24-bit 无压缩** 的标准 BMP（不支持 32-bit Alpha、RLE 压缩等变体），读取后转为 8-bit RGB
+> - **PPM** (`.ppm`) — 简单图像格式
+> - **YUV** (`.yuv`) — 需在 Codec 标签页指定 PIC_WIDTH / PIC_HEIGHT
 
 ---
 
