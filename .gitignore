@@ -1,0 +1,20 @@
+# Build outputs
+debug/
+release/
+*.o
+*.exe
+*.app
+Makefile
+Makefile.Debug
+Makefile.Release
+object_script.*
+
+# Qt generated
+moc_*.cpp
+moc_predefs.h
+.qmake.stash
+
+# IDE
+.qtcreator/
+*.pro.user
+*.pro.user.*
