@@ -1,0 +1,6 @@
+F:/DSC-1.2-Model-v1/DSC_GUI/cfg\some_other_test.dpx
+F:/DSC-1.2-Model-v1/DSC_GUI/cfg\TEST.dpx
+F:/DSC-1.2-Model-v1/DSC_GUI/cfg\TEST.out.dpx
+F:/DSC-1.2-Model-v1/DSC_GUI/cfg\TEST.ref.dpx
+F:/DSC-1.2-Model-v1/DSC_GUI/cfg\test_picture1.dpx
+F:/DSC-1.2-Model-v1/DSC_GUI/cfg\test_picture2.dpx
